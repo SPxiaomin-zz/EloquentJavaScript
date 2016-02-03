@@ -45,3 +45,8 @@
 - Prototype-less objects
 
     `Object.create` function, which allows us to create an object with a specific prototype. You are allowed to pass `null` as the prototype to create a fresh object with no prototype. 
+
+- Polymorphism
+
+    When a piece of code is written to work with objects that have a certain interface—in this case, a toStringmethod—any kind of object that happens to support this interface can be plugged into the code, and it will just work.
+    
