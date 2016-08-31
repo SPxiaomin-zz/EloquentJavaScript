@@ -75,7 +75,7 @@ TextCell.prototype.draw = function(width, height) {
   return result;
 };
 
-/*
+//*
 var rows = [];
 for (var i = 0; i < 5; i++) {
    var row = [];
@@ -87,8 +87,11 @@ for (var i = 0; i < 5; i++) {
    }
    rows.push(row);
 }
+
+console.log(drawTable(rows));
 //*/
 
+/*
 function UnderlinedCell(inner) {
   this.inner = inner;
 }
@@ -117,3 +120,4 @@ function dataTable(data) {
 }
 
 console.log(drawTable(dataTable(MOUNTAINS)));
+//*/
